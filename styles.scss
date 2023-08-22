@@ -1,0 +1,174 @@
+$background: rgba(202, 239, 70, 1);
+
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 94.27px;
+    margin-top: 35px;
+    margin-bottom: 41px;
+    align-items: center;
+    z-index: 100;
+    position: absolute;
+    overflow: hidden;
+    background-color: #CAEF46;
+    position: sticky;
+    &-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1173px;
+        &-logo{
+            display: flex;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 5.125px;
+            color: #14279B;
+        }
+        &-nav{  
+            display: flex;
+            list-style: none;
+            letter-spacing: 1.375px;
+            &-list-item {
+                display: flex;
+                width: 379px;
+                height: 26px;
+                margin-top: 40px;
+                left: 635px;
+                position: absolute;
+                font-family: 'DM Sans';
+                display: flex;
+                justify-content: center;
+                list-style: none;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 26px;
+                align-items: center;
+                text-decoration: none;
+                cursor: pointer;
+                & li{
+                    margin-right: 45px;
+                    color: #212121;
+                }
+                &-page{
+                    display: flex;
+                    justify-content: center;
+                    color: #212121;
+                    &:hover{
+                        color: #14279B;
+                    }
+                }
+            }
+            &-button-contact {
+                background: #ffffff;
+                color:#212121;
+                padding: 10px 18px;
+                border-color: #212121;
+                font-size: 25px;
+                cursor: pointer;
+            }
+
+        }
+     
+    }
+}
+.section{
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-1 {
+        display: flex;
+        background-color: rgba(255, 241, 232, 1);
+        background-image: url(./image/background_img1.png);
+        display: flex;
+        width: 1920px;
+        height: 749px;
+        top: 93.999755859375px;
+        justify-content: center;
+        &-title {
+            display: flex;
+            align-items: center;
+            line-height: 485px;
+            margin-top: 100px;
+            margin-left: 400px;
+            &-content{
+                width: 526px;
+                height: 299.781px;
+                flex-shrink: 0;
+                color: #111;
+                font-family: Space Grotesk;
+                font-size: 88px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%; /* 105.6px */
+                letter-spacing: -1.76px;
+
+            }
+            &-description{
+                width: 436px;
+                height: 73px;
+                flex-wrap: nowrap;
+                font-family: DM Sans;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 26px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+            
+            
+        }
+        &-button-contact-join{
+            background-color: #C0EF37;
+            color: #111111;
+        }
+    }
+    &-2-title{
+        background-image: url(./image/img-boeder-uonluon.png);
+        display: flex;
+        width: 570px;
+        height: 227.999755859375px;
+        top: 1019px;
+        left: 375px;
+        &-content{
+            width: 508px ;
+            height: 43px;
+            color: rgba(255, 255, 255, 1);
+            font-family: Space Grotesk;
+            font-size: 34px;
+            font-weight: 700;
+            line-height: 43px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        &-button{
+            background-color: rgba(192, 239, 55, 1);
+            color: rgba(17, 17, 17, 1);
+        }
+    }
+    &-section_7{
+        background-color: #212121;
+        width: 100%;
+        width: 1920px;
+        height: 442px;
+        top: 5955px;
+        &_content {
+            color: #ffffff;
+            &_title{
+                font-family: Space Grotesk;
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 26px;
+                letter-spacing: 0em;
+                text-align: right;
+            }
+        }
+    }
+}
